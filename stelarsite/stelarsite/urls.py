@@ -20,6 +20,7 @@ urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
     path('posts/', include('posts.urls')),
-    path('stelarguestbook/', include('stelarguestbook.urls'))
+    path('stelarguestbook/', include('stelarguestbook.urls')),
+    path('faceapp/', include('faceapp.urls'))
 ]
 
