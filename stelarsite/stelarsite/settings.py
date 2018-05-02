@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'posts',
     'polls',
     'stelarguestbook',
+    'faceapp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
